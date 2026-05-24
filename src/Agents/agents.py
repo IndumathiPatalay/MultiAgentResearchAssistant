@@ -9,7 +9,7 @@ import os
 load_dotenv()
 
 
-model = ChatOpenAI(model="gpt-5.4-mini", temperature=0, openai_api_key=os.getenv("OPENAI-API-KEY"))
+model = ChatOpenAI(model="gpt-5.4-nano", temperature=0, openai_api_key=os.getenv("OPENAI-API-KEY"))
 
 def create_search_agent():
     prompt = ChatPromptTemplate.from_messages([
