@@ -8,7 +8,7 @@ st.title("🔎 Research Assistant Pipeline")
 st.write("Enter a topic and let the pipeline search, read, and generate a structured research report.")
 
 # Input field
-topic = st.text_input("Enter your research topic:")
+topic = st.text_input("Enter your research topic here:")
 
 # Run pipeline button
 if st.button("Run Research Pipeline"):
